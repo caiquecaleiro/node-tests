@@ -1,0 +1,25 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "Simple tests for a NodeJS application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -c **/*.test.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiquecaleiro/node-tests.git"
+  },
+  "keywords": [],
+  "author": "Caique Caleiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiquecaleiro/node-tests/issues"
+  },
+  "homepage": "https://github.com/caiquecaleiro/node-tests#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
+}
